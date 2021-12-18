@@ -1,0 +1,31 @@
+{
+    "plus": [
+        "http://localhost:5000/Stephanie/plus/plus1.png",
+        "http://localhost:5000/Stephanie/plus/plus2.png",
+        "http://localhost:5000/Stephanie/plus/plus3.png",
+        "http://localhost:5000/Stephanie/plus/plus4.png",
+        "http://localhost:5000/Stephanie/plus/plus5.png",
+        "http://localhost:5000/Stephanie/plus/plus6.png"
+    ],
+    "aalst": [
+        "http://localhost:5000/Stephanie/aalst/aalst1.png",
+        "http://localhost:5000/Stephanie/aalst/aalst2.png",
+        "http://localhost:5000/Stephanie/aalst/aalst3.png",
+        "http://localhost:5000/Stephanie/aalst/aalst4.png"
+    ],
+    "olijf": [
+        "http://localhost:5000/Stephanie/olijf/olijf1.png",
+        "http://localhost:5000/Stephanie/olijf/olijf2.png",
+        "http://localhost:5000/Stephanie/olijf/olijf3.png",
+        "http://localhost:5000/Stephanie/olijf/olijf4.png",
+        "http://localhost:5000/Stephanie/olijf/olijf5.png",
+        "http://localhost:5000/Stephanie/olijf/olijf6.png"
+    ],
+    "wood": [
+        "http://localhost:5000/Stephanie/wood/wood1.png",
+        "http://localhost:5000/Stephanie/wood/wood2.png",
+        "http://localhost:5000/Stephanie/wood/wood3.png",
+        "http://localhost:5000/Stephanie/wood/wood4.png",
+        "http://localhost:5000/Stephanie/wood/wood5.png"
+    ]
+}

@@ -1,0 +1,26 @@
+Volgende comments zijn belangrijk tijdens het bekijken van de website:
+
+#Algemeen:
+Alle carousel foto's onder de pagina portfolio komen van de solid server, de rest wordt gewoon rechtstreeks opgehaald uit de applicatie
+Deze site is niet volledig responsive (niet kleiner als tabletformaat)
+
+#Navbar
+Deze balk komt op elke pagina terecht en bevat de sociale media icoontjes. 
+Als je op elk van deze icoontjes klikt kom je terecht op de juiste pagina in een nieuw tabblad.
+Bij het hooveren over de navbar tekst verschijnt er een lijntje onder de tekst
+
+#Home
+Op deze pagina staat een geroteerde foto.
+
+#AboutMe
+Hier kan je naar beneden scrollen of op de knop "meer over mij" klikken.
+Op deze pagina staat mijn opleidingstraject verdeeld in componenten die aangestuurd worden met json objecten.
+
+#portfolio
+Dit was de moeilijkste pagina door de carousel en de verbinding met de server.
+Hier zijn meerdere componenten aan te pas gekomen en ook een geïmporteerde library: "react-responsive-carousel".
+De carousel wordt aangestuurd door een json bestand dat op de solid server staat.
+Dit json bestand bevat de locatie van de images op de solid server.
+
+#Contact
+Dit was de allereerste pagina die ik heb gemaakt en hier is dus niks speciaal toegevoegd.
