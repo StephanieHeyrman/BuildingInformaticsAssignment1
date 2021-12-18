@@ -1,0 +1,138 @@
+.welkomHolder {
+    height: 89vh;
+    .ik3 {
+        position: absolute;
+        height: 50vh;
+        width: 20vw;
+        left: 15vw;
+        top: 18vh;
+        z-index: 1;
+        object-fit: cover;
+    }
+    .rectangle {
+        height: 65vh;
+        width: 60vw;
+        background-color: var(--light-blue);
+        margin-top: 13vh;
+        position: absolute;
+        right: 15vw;
+
+        h1 {
+            margin-left: 20vw;
+            margin-top: 7vh;
+            z-index: 2;
+            position: relative;
+        }
+        p {
+            margin-left: 20vw;
+            z-index: 2;
+            position: relative;
+            margin-right: 10vw;
+            padding-top: 2vh;
+        }
+
+        .titleRect {
+            height: 4vh;
+            width: 22.5vw;
+            background-color: var(--blue);
+            margin-left: 21.5vw;
+            margin-top: 8vh;
+            position: absolute;
+            z-index: 1;
+        }
+        .square1 {
+            height: 6vh;
+            width: 5vw;
+            border-right: 0.5em solid var(--white);
+            border-bottom: 0.5em solid var(--white);
+            position: absolute;
+            margin-left: 50vw;
+            margin-top: 54vh;
+        }
+        .square2 {
+            height: 6vh;
+            width: 5vw;
+            border-left: 0.5em solid var(--white);
+            border-top: 0.5em solid var(--white);
+            position: absolute;
+            margin-left: 17vw;
+            margin-top: 5vh;
+        }
+        .buttonholder {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 26.25vw;
+            width: 7.5vw;
+
+            .more {
+                margin-top: 2vh;
+                padding: 0.5vw 0.75vw;
+                border: 0.15em solid var(--black);
+                background-color: var(--white);
+                font-family: Quicksand;
+                font-size: 0.85em;
+                font-weight: bold;
+                width: 7.5vw;
+                text-align: center;
+            }
+            .arrow {
+                margin-top: 1vh;
+                height: 2.5vh;
+                opacity: 70%;
+            }
+        }
+    }
+}
+
+.opleidingHolder {
+    height: 100vh;
+    display: flex;
+
+    .opleidingIntro {
+        width: 45vw;
+        h1 {
+            z-index: 1;
+            position: absolute;
+            margin-top: 10vh;
+            margin-left: 8vw;
+        }
+        .rect {
+            position: absolute;
+            margin-top: 11vh;
+            margin-left: 10vw;
+            background-color: var(--white);
+            height: 5vh;
+            width: 12vw;
+        }
+        .gent {
+            position: absolute;
+            margin-top: 15vh;
+            margin-left: 20vw;
+            width: 18vw;
+            opacity: 0.8;
+            z-index: 1;
+            object-fit: cover;
+        }
+        .imageRect {
+            z-index: 2;
+            height: 15vh;
+            width: 25vw;
+            border-left: 0.5em solid var(--dark-grey);
+            border-bottom: 0.5em solid var(--dark-grey);
+            position: absolute;
+            margin-left: 15vw;
+            margin-top: 45vh;
+        }
+        .bar {
+            z-index: -1;
+            margin-left: 12vw;
+            height: 100vh;
+            width: 15vw;
+            background-color: var(--light-grey);
+        }
+    }
+    .opleidingen {
+        width: 55vw;
+    }
+}

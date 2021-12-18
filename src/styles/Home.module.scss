@@ -1,0 +1,62 @@
+.detail {
+  position: absolute;
+  height: 80vh;
+  width: 80vw;
+  left: 10vw;
+  bottom: 0;
+  background-color: var(--light-blue);
+  z-index: -1;
+  overflow: hidden;
+
+  > div {
+    height: 120%;
+    width: 60%;
+    background-image: url("../assets/detail.png");
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    margin-left: -5%;
+    margin-top: -5%;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.3;
+  }
+}
+
+.intro {
+  margin-left: 50vw;
+  color: #272424;
+  margin-top: 20vh;
+}
+
+.intro > h1 {
+  font-weight: 100;
+  font-size: 4.5em;
+  margin: 0;
+  padding: 1vw;
+}
+
+.introRect {
+  z-index: -1;
+  position: absolute;
+  width: 5vw;
+  height: 50vh;
+  top: 25vh;
+  left: 57vw;
+  background-color: var(--light-blue-hard);
+}
+
+.introText {
+  margin-left: 10vw;
+  width: 27vw;
+  .steph {
+    font-size: 1.5em;
+    font-family: Ink Free;
+    font-weight: 550;
+  }
+  .title{
+    font-size: 0.8em;
+  }
+}

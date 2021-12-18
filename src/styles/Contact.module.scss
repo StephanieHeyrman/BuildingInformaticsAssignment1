@@ -1,0 +1,70 @@
+.rectangle {
+    height: 50vh;
+    width: 45vw;
+    background-color: var(--light-blue);
+    margin: auto;
+    margin-top: 15vh;
+  
+    h1 {
+      padding-left: 10vw;
+      padding-top: 8vh;
+      padding-bottom: 2vh;
+      z-index: 2;
+      position: relative;
+    }
+  
+    .smallrectangle {
+      height: 4vh;
+      width: 18vw;
+      background-color: var(--blue);
+      margin-left: 11.5vw;
+      margin-top: 9.5vh;
+      position: absolute;
+      z-index: 1;
+    }
+    .square1 {
+      height: 6vh;
+      width: 5vw;
+      border-left: 0.5vw solid var(--white);
+      border-bottom: 1vh solid var(--white);
+      position: absolute;
+      margin-left: 5vw;
+      margin-top: 40vh;
+    }
+    .square2 {
+      height: 6vh;
+      width: 5vw;
+      border-right: 0.5vw solid var(--white);
+      border-top: 1vh solid var(--white);
+      position: absolute;
+      margin-left: 35vw;
+      margin-top: 5vh;
+    }
+    .iconholder {
+      margin-left: 11vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .icon {
+        height: 3vh;
+        width: 3vh;
+      }
+      p {
+        margin-left: 3vw;
+      }
+    }
+  }
+  .ik1 {
+    bottom: 0;
+    position: absolute;
+    height: 81vh;
+    left: 22vw;
+  }
+  
+  .ik2 {
+    bottom: 0;
+    position: absolute;
+    height: 81vh;
+    right: 15vw;
+  }
+  

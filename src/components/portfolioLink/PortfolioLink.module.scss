@@ -1,0 +1,56 @@
+.container {
+    width: 50%;
+    height: 50%;
+
+    .rightCorner {
+        height: 5vh;
+        width: 3vw;
+        border-left: 5px solid var(--blue);
+        border-bottom: 5px solid var(--blue);
+        position: absolute;
+        margin-left: 11vw;
+        margin-top: 33vh;
+    }
+    .leftCorner {
+        height: 5vh;
+        width: 3vw;
+        border-right: 5px solid var(--blue);
+        border-top: 5px solid var(--blue);
+        position: absolute;
+        margin-left: 31vw;
+        margin-top: 2vh;
+    }
+
+    .content {
+        margin: auto;
+        margin-top: 5vh;
+        height: 30vh;
+        width: 20vw;
+        background-color: var(--light-grey);
+
+        a {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            text-align: center;
+            width: 80%;
+        }
+
+        .image {
+            margin: 4vh 0;
+            height: 5em;
+            width: 5em;
+        }
+
+        .arrow {
+            margin-top: 1vh;
+            height: 2.5vh;
+        }
+    }
+}
